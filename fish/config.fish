@@ -8,5 +8,4 @@ if status is-interactive
 
 	starship init fish | source
 	source /opt/homebrew/opt/asdf/libexec/asdf.fish
-	fzf_configure_bindings --directory=\cf --history=\cs --git_log=\cl --git_status=\cg --processes=\cp
 end
